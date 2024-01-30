@@ -1,30 +1,59 @@
 import React from 'react';
-import laxImg from '../lax pic.jpg'
-import nicePic from '../nice pic.jpg'
-import UNLBis from '../unl business.png'
+import coyote from '../20110620-coyote-artwork-brandm_10963754.avif'
+import alpine from '../alpinepharmacy_logo.jpg'
+import rainbowTree from '../RainbowTreecare-Logo.webp'
 
 const AboutMe = () => {
   return (
     <section style={{margin: '20px 0'}}>
-      <h2 style={{fontSize: "200%", fontWeight: '800', marginLeft: '3%'}}>About Me</h2>
-      <div style={{width: '45%', float: 'left', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-      <p style={{ borderStyle: "solid", backgroundColor: 'black', color: "white", padding: "10px", textAlign: 'center', fontSize: '21px'}}>
-       I'm from a town in Minnesota called Chanhassen. After graduating high school, I decided to get a degree in international business with a focus on marketing. I also obtained a minor in Japanese, and spent a semester at Senshu University in Tokyo. From there, I started my marketing career at Coyote Logistics LLC as a carrier sales associate for about 2 years. Working in this professional environment helped me gain an understanding of business ediquettes and procedures that couldn't be taught in the classroom. However, I soon learned that marketing was not a passion of mine, just something I was good at. This lead me to do some searching, and found out about the Flatiron School. I decided to jump in and tackle this program. I left my comfortable marketing career to focus on something I felt would benefit me greatly long term, and give me a sense of fullfilment that marketing wasn't providing me. I'm now ready to start fresh in my new career as a web developer, and I couldn't be more eager.  
-      </p>
-      <p style={{ borderStyle: "solid", backgroundColor: "black", color: "white", padding: "10px", textAlign: 'center', fontSize: '21px'}}>
-       I grew up playing team sports. Hockey and Lacrosse will always be passions of mine. I'm a firm believer that kids and young adults gain many skills in cooperation through participating in team sports. My other hobbies include gaming, watching movies, and following the NBA. I enjoy thinking about the process that goes into making movies and video games, all the effort that goes in behind the scenes amazes me. 
-      </p>
-      <img src={nicePic} alt='nicePic' style={{borderStyle: 'solid', borderRadius: '100px'}} />
-      </div>
-      <div style={{width: '45%', float: 'right', background: 'none', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-        <img src={laxImg} alt='laxImg' style={{width: '100%', maxWidth: '400px', height: 'auto', borderStyle: 'groove', borderColor: 'black', borderRadius: '10px'}} />
-      </div>
-      <div style={{width: '45%', float: 'right', background: 'none', display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '100px'}}>
-        <img src={UNLBis} alt='UNLB' style={{width: '50%'}} />
-      </div>
-  
-  </section>
-  );
+      <h2 style={{fontSize: "200%", fontWeight: '800', marginLeft: '3%'}}>Experience</h2>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+    <div style={{ marginBottom: '20px' }} className='job'>
+      <h3>Coyote Logistics LLC</h3>
+      <p>Denver, CO</p>
+      <p style={{ fontStyle: 'italic' }}>Account Manager - Carrier Sales</p>
+      <p>June 2021 - Jan 2023</p>
+      <ul>
+        <li>Grew my book of business and formed relationships with new customers almost daily, averaging 50 calls per day</li>
+        <li>Coordinated with shippers and receivers to ensure accurate and prompt deliveries from my drivers</li>
+        <li>Conducted daily negotiations with customers regarding rates and earned commission through sales</li>
+        <li>Consistently improved personal sales numbers month by month</li>
+      </ul>
+    </div>
+    <img src={coyote} alt="Coyote Logistics Logo" style={{ width: '20%', height: 'auto', marginLeft: '15%', borderRadius: '15px', borderStyle: 'solid' }} />
+  </div>
+
+  <div style={{ display: 'flex', alignItems: 'center' }} className="job">
+    <div style={{ marginBottom: '20px' }}>
+      <h3>Alpine Pharmacy</h3>
+      <p>Lakewood, CO</p>
+      <p style={{ fontStyle: 'italic' }}>Pharmacy Technician</p>
+      <p>Jan 2023 - August 2023</p>
+      <ul>
+        <li>Followed all federal and state pharmacy protocols to provide medication deliveries to local retirement communities</li>
+        <li>Gained extensive knowledge of pharmaceutical business practices and medicine expertise</li>
+      </ul>
+    </div>
+    <img src={alpine} alt="Alpine Pharmacy Logo" style={{ width: '20%', height: 'auto', marginLeft: '15%', borderRadius: '15px', borderStyle: 'solid' }} />
+  </div>
+
+  <div style={{ display: 'flex', alignItems: 'center' }} className="job">
+    <div style={{ marginBottom: '20px' }}>
+      <h3>Rainbow Treecare</h3>
+      <p>Minnetonka, MN</p>
+      <p style={{ fontStyle: 'italic' }}>Rainbow Treecare · Internship</p>
+      <p>May 2020 - Aug 2020</p>
+      <ul>
+        <li>Marketed and promoted environmental solutions to preserve endangered trees within the community</li>
+        <li>Performed a variety of tasks including sales, customer service, account management, and business development</li>
+        <li>Successfully generated new business opportunities through proactive outreach and networking</li>
+        <li>Completed nine college credits during the summer term in addition to internship responsibilities</li>
+      </ul>
+    </div>
+    <img src={rainbowTree} alt="Rainbow Treecare Logo" style={{ width: '20%', height: 'auto', marginLeft: '15%', borderRadius: '15px', borderStyle: 'solid' }} />
+  </div>
+</section>
+);
 }
 
 export default AboutMe;

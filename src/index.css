@@ -1,5 +1,5 @@
 html {
-  background: linear-gradient(to right, #a9acdf, #637e99);
+  background: rgb(240, 239, 239);
 }
 
 body {
@@ -16,23 +16,29 @@ body {
 } */
 
 header {
-  background-color: #333;
+  /* background-color: #797979; */
   color: #fff;
   padding-left: 17px;
   padding-right: 17px;
-  border-style: solid;
-  border-color: black;
+  display: flex;
+  justify-content: center;
+  /* border-style: solid;
+  border-color: rgb(80, 80, 80);
+  border-radius: 20px; */
 }
 
 nav ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  background: linear-gradient(to right, #686981, #3e4e5f);
+  background: rgb(197, 197, 197);
   border-style: solid;
-  border-color: black;
+  border-color: rgb(80, 80, 80);
+  border-radius: 20px;
   margin-left: 15px;
   margin-right: 15px;
+  padding: 10px;
+  align-items: center;
 }
 
 nav a {
@@ -95,7 +101,7 @@ button:focus {
 }
 
 div {
-  background: linear-gradient(to right, #a9acdf, #637e99);
+  background: rgb(240, 239, 239);
   padding: 10px;
   margin-bottom: 15px;
   border-radius: 5px;
@@ -103,4 +109,16 @@ div {
 
 h3 {
   color: #333;
+}
+
+.job ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.job ul li:before {
+  content: "\2022"; /* Bullet point character */
+  color: #007bff; /* Custom color */
+  font-size: 1.2em;
+  margin-right: 0.5em;
 }
