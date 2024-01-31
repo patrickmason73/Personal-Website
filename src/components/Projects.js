@@ -20,7 +20,7 @@ const Projects = () => {
         <li>Managed project data using PostgreSQL, ensuring secure and organized storage.</li>
       </ul>
       <div>
-       <b> GitHub:</b> <a href="https://github.com/patrickmason73/League-of-lore" target="_blank" rel="noopener noreferrer">League Of Lore - GitHub</a> | <b>Demo:</b> <a href="https://capstone-project-ud8d.onrender.com/" target="_blank" rel="noopener noreferrer">League Of Lore - Demo</a> (Can take 30+ seconds to render)
+       <b> GitHub:</b> <a href="https://github.com/patrickmason73/League-of-lore" target="_blank" rel="noopener noreferrer">League Of Lore - GitHub</a> | <b>Demo:</b> <a href="https://capstone-project-ud8d.onrender.com/" target="_blank" rel="noopener noreferrer">League Of Lore - Demo</a>
       </div>
       <img src={LOLpic} alt='League of Lore' style={{ width: '50%', borderStyle: 'solid' }} />
     </div>
