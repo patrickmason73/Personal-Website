@@ -139,9 +139,9 @@ h3 {
     width: 100%;
   }
 
-  nav li {
-    margin-right: 0.5%; /* Adjust margin */
-  }
+  /* nav li {
+    margin-right: 0.5%; 
+  } */
 
   /* Adjust button styles for smaller screens */
   button {
