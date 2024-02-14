@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header style={{marginLeft: 'auto', marginRight: 'auto'}}>
+    <header >
       <nav >
         <ul>
           <li><Link to="/"><button>Home</button></Link></li>
