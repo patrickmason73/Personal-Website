@@ -127,6 +127,7 @@ h3 {
   /* Adjust header and nav styles for smaller screens */
   header {
     padding: 10px; /* Adjust padding */
+    justify-content: center;
   }
 
   nav {
