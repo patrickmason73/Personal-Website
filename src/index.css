@@ -53,6 +53,7 @@ header {
 nav li {
   display: inline-block;
   margin-right: 20px;
+  flex-grow: 1;
 }
 
 section {
@@ -135,17 +136,18 @@ h3 {
   nav ul {
     margin: 0; /* Remove fixed margins */
     padding: 5px; /* Adjust padding */
+    width: 90%;
   }
 
   nav li {
-    margin-right: 10px; /* Adjust margin */
+    margin-right: 0.5%; /* Adjust margin */
   }
 
   /* Adjust button styles for smaller screens */
   button {
-    padding: 6px 10px; /* Adjust padding */
-    margin: 6px; /* Adjust margin */
-    font-size: 100%; /* Adjust font size */
+    padding: 6px; /* Adjust padding */
+    margin: 2px; /* Adjust margin */
+    font-size: 90%; /* Adjust font size */
   }
 
   /* Adjust div styles for smaller screens */
