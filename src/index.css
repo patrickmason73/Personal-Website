@@ -158,4 +158,8 @@ h3 {
     padding: 5px; /* Adjust padding */
     margin-bottom: 10px; /* Adjust margin */
   }
+
+  h1 {
+    font-size: 60%;
+  }
 }
