@@ -122,3 +122,32 @@ h3 {
   font-size: 1.2em;
   margin-right: 0.5em;
 }
+
+@media only screen and (max-width: 600px) {
+  /* Adjust header and nav styles for smaller screens */
+  header {
+    padding: 10px; /* Adjust padding */
+  }
+
+  nav ul {
+    margin: 0; /* Remove fixed margins */
+    padding: 5px; /* Adjust padding */
+  }
+
+  nav li {
+    margin-right: 10px; /* Adjust margin */
+  }
+
+  /* Adjust button styles for smaller screens */
+  button {
+    padding: 6px 10px; /* Adjust padding */
+    margin: 6px; /* Adjust margin */
+    font-size: 100%; /* Adjust font size */
+  }
+
+  /* Adjust div styles for smaller screens */
+  div {
+    padding: 5px; /* Adjust padding */
+    margin-bottom: 10px; /* Adjust margin */
+  }
+}
