@@ -130,13 +130,13 @@ h3 {
   }
 
   nav {
-    width: 95%;
+    width: 100%;
   }
 
   nav ul {
     margin: 0; /* Remove fixed margins */
     padding: 5px; /* Adjust padding */
-    width: 95%;
+    width: 100%;
   }
 
   nav li {
