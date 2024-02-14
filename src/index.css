@@ -132,6 +132,7 @@ h3 {
   nav ul {
     margin: 0; /* Remove fixed margins */
     padding: 5px; /* Adjust padding */
+    border-width: 0;
   }
 
   nav li {
