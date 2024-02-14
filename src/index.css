@@ -30,7 +30,6 @@ header {
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
   background: rgb(197, 197, 197);
   border-style: solid;
   border-color: rgb(80, 80, 80);
