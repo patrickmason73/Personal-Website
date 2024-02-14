@@ -6,7 +6,7 @@ function Home() {
 
     return (
         <div style={{ textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-    <h1 style={{ backgroundColor: 'black', color: 'white', padding: '10px', width: '80%', borderRadius: '30px' }}>My Name Is Patrick Mason, Welcome to My Portfolio!</h1>
+    <h1 style={{ backgroundColor: 'black', color: 'white', padding: '10px', width: '60%', borderRadius: '30px' }}>My Name Is Patrick Mason, Welcome to My Portfolio!</h1>
     <img src={image} alt="home pic" style={{ borderRadius: '50%', width: '40%', marginTop: '20px', border: '2px solid black' }} />
     <div>
         <p style={{backgroundColor: 'black', color: 'white', padding: '10px', width: '80%', margin: '20px auto', borderRadius: '25px', fontSize: '1.4em', textAlign: 'center'}}>I'm a software engineer and a graduate of <b>Flatiron School</b>, with experience in JavaScript, React, Ruby on Rails, and SQL!</p>
