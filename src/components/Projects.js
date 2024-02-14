@@ -38,7 +38,7 @@ const Projects = () => {
         <li>Acquired knowledge in maintaining state through sessions, improving user experience and ensuring data persistence.</li>
       </ul>
       <div>
-      <b> GitHub:</b> <a href="https://github.com/patrickmason73/historical-database-and-forum" target="_blank" rel="noopener noreferrer">Historical Database and Forum - GitHub</a> | <b>Demo:</b> <a href="https://history-app.onrender.com/" target="_blank" rel="noopener noreferrer">Historical Database and Forum - Demo</a> (Can take 30+ seconds to render)
+      <b> GitHub:</b> <a href="https://github.com/patrickmason73/historical-database-and-forum" target="_blank" rel="noopener noreferrer">Historical Database and Forum - GitHub</a> | <b>Demo:</b> <a href="https://history-app.onrender.com/" target="_blank" rel="noopener noreferrer">Historical Database and Forum - Demo</a>
       </div>
       <img src={historyPic} alt='history project' style={{width: '50%', borderStyle: 'solid'}}/>
     </div>
