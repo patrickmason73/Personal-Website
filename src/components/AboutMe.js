@@ -2,11 +2,29 @@ import React from 'react';
 import coyote from '../20110620-coyote-artwork-brandm_10963754.avif'
 import alpine from '../alpinepharmacy_logo.jpg'
 import rainbowTree from '../RainbowTreecare-Logo.webp'
+import flatiron from '../FS_wiki.png'
 
 const AboutMe = () => {
   return (
     <section style={{margin: '20px 0'}}>
       <h2 style={{fontSize: "200%", fontWeight: '800', marginLeft: '3%'}}>Experience</h2>
+
+      <div style={{ display: 'flex', alignItems: 'center' }} className="job">
+    <div style={{ marginBottom: '20px' }}>
+      <h3>Flatiron</h3>
+      <p>Denver, CO</p>
+      <p style={{ fontStyle: 'italic' }}>Student</p>
+      <p>Dec 2023 - Jan 2024</p>
+      <ul>
+        <li>Gained hands-on experience in JavaScript, React, Ruby on Rails and HTML/CSS as a full stack developer</li>
+        <li>Trained on SQL and PostgreSQL databases</li>
+        <li>Followed Agile methodology, collaborating on Github for projects</li>
+        <li>Designed and built responsive web applications, using Node.js and implementing Active Record backend methods</li>
+      </ul>
+    </div>
+    <img src={flatiron} alt="flatiron Logo" style={{ width: '20%', height: 'auto', marginLeft: '15%', borderRadius: '15px', borderStyle: 'solid' }} />
+  </div>
+
       <div style={{ display: 'flex', alignItems: 'center' }}>
     <div style={{ marginBottom: '20px' }} className='job'>
       <h3>Coyote Logistics LLC</h3>
